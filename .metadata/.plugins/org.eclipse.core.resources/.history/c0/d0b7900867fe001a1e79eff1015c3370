@@ -1,0 +1,18 @@
+package hello_world;
+
+class Construct {
+	private int camp = 17;
+
+	private Construct(int c) {
+		camp = c;
+	}
+}
+
+public class Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

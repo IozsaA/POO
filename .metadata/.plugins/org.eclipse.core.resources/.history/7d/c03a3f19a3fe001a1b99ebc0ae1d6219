@@ -1,0 +1,23 @@
+package hello_world;
+
+class Complex {
+	float real, imaginar;
+
+	public Complex(int re, int im) {
+		real = re;
+		imaginar = im;
+	}
+
+	public float modul() {
+		return Math.sqrt(real * real + imaginar * imaginar);
+	}
+}
+
+public class Doi5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

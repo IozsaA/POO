@@ -1,0 +1,15 @@
+package fisiere;
+
+import java.io.*;
+
+public class Trei {
+	
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String name = reader.readLine();
+		File file = new File("");
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package fisiere;
+import java.io.*;
+
+public class Trei {
+
+	public static void main(String[] args) {
+		File file = new File("");
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package hello_world;
+
+class Piramida {
+	private int num;
+
+	public Piramida(int n) {
+		num = n;
+	}
+
+	public void tiparire() {
+		for (int i = num; i >= 0; i--) {
+			for (int j = i; j > 0; j--) {
+				System.out.println(j + " ");
+			}
+			System.out.println();
+		}
+	}
+}
+
+public class Trei4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

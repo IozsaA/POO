@@ -1,0 +1,21 @@
+package hello_world;
+
+class Sertar {
+	private int lungime, latime, inaltime;
+
+	public Sertar(int lu, int la, int h) {
+		lungime = lu;
+		latime = la;
+		inaltime = h;
+	}
+
+}
+
+public class DoiPatru {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

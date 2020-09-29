@@ -1,0 +1,18 @@
+package fisiere;
+
+import java.io.*;
+import java.util.Scanner;
+
+public class Trei {
+	
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		String text = reader.readLine();
+		String name = reader.readLine();
+		File file = new File(name);
+		Scanner scan = new Scanner(file);
+
+	}
+
+}

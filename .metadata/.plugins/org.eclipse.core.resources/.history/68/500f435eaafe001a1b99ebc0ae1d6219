@@ -1,0 +1,38 @@
+package hello_world;
+
+class Carte {
+	private String cart;
+	
+	public Carte() {
+		cart = "";
+	}
+	
+	public Carte(String s) {
+		cart = s;
+	}
+	
+	public boolean compar(Carte cart2) {
+		if(cart.equals(cart2)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+}
+
+public class Trei2 {
+
+	public static void main(String[] args) {
+		Carte a = new Carte("book");
+		Carte b = new Carte("bhook");
+		if(a.compar(b) == true) {
+			System.out.println("Da, sunt egale");
+		}
+		else {
+			System.out.println("Nu, nu sunt egale");
+		}
+
+	}
+
+}

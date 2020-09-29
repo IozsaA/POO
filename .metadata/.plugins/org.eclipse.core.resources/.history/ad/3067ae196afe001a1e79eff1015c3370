@@ -1,0 +1,21 @@
+package hello_world;
+
+class Atribute {
+	private int numar;
+	private char caracter;
+
+	public Atribute(int n,char c) {
+		numar = n;
+		caracter = c;
+	}
+}
+
+public class Nestatice {
+
+	public static void main(String[] args) {
+		Atribute atr = new Atribute(1,'c');
+		System.out.println(atr);
+
+	}
+
+}

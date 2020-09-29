@@ -1,0 +1,27 @@
+package hello_world;
+
+class Atribute {
+	private int numar;
+	private char caracter;
+
+	public Motor(int c) {
+		capacitate = c;
+	}
+
+	public void setCapacitate(int c) {
+		capacitate = c;
+	}
+
+	public void tipareste() {
+		System.out.println("Motor de capacitate " + capacitate);
+	}
+}
+
+public class Nestatice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

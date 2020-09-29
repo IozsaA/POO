@@ -1,0 +1,24 @@
+package hello_world;
+
+class Carte {
+	private String cart;
+	
+	public Carte() {
+		cart = "";
+	}
+	
+	public Carte(String s) {
+		cart = s;
+	}
+	
+	public 
+}
+
+public class Trei2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package hello_world;
+
+class Constructor {
+	private int camp = 17;
+
+	public Constructor(int c) {
+		camp = c;
+	}
+
+	public void afiseaza() {
+		System.out.println("Camp " + camp);
+	}
+}
+
+public class Constructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
